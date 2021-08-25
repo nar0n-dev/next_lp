@@ -4,7 +4,7 @@ import { mockBase } from './mock';
 
 describe('<Base />', () => {
   test('Test A - should render', () => {
-    const {container} = renderTheme(<Base {...mockBase} />);
+    const { container } = renderTheme(<Base {...mockBase} />);
     expect(container).toMatchSnapshot();
   });
 });
